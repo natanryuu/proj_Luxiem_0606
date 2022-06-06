@@ -1,0 +1,151 @@
+*{
+	box-sizing:border-box;
+}
+
+
+
+/* ---RWD手機版：375px--- */
+.title {
+    display: flex;
+    align-items: baseline;
+    /* margin-left: 505px; */
+    padding-top: 50px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+.result-zh{
+    font-size: 20px;
+    color:white !important;
+    margin-left: 20px;
+    padding-bottom: 2px;
+
+}
+.result-en{
+    font-size: 48px;
+    color: rgb(211, 180, 114);
+    font-family: 'Kaisei Opti', serif;
+}
+
+.answer{
+    background-color:#000000;
+    /* height: 100vh; */
+}
+
+.wrap{
+	width: 100vw;
+	margin: auto;
+	display:block;
+}
+.imageWrap{
+    padding-left: 87px;
+    margin-bottom: 20px;
+}
+
+.imageWrap img{
+    width: 200px;
+}
+.text{
+    font-size: 12px;
+    /* margin-top: 120px; */
+    /* width: 850px; */
+	/* padding-left: 100px; */
+    color: rgb(211, 180, 114);
+    font-family: 'Noto Sans', sans-serif;
+}
+.text p {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+h3{
+    font-size: 32px;
+    font-family: 'Kaisei Opti', serif;
+    /* padding-left: 75px; */
+    width: 100%;
+    text-align: center;
+}
+h2{
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+
+
+/* ---RWD桌機版：1920px--- */
+@media screen and (min-width: 1600px) {
+    .title {
+        display: flex;
+        align-items: baseline;
+        margin-left: 505px;
+        padding-top: 90px;
+        margin-bottom: 40px;
+    }
+    
+    .result-zh{
+        font-size: 48px;
+        color:white !important;
+        margin-left: 40px;
+        padding-bottom: 2px;
+    
+    }
+    
+    
+    .result-en{
+        font-size: 96px;
+        color: rgb(211, 180, 114);
+        font-family: 'Kaisei Opti', serif;
+    }
+    
+    
+    /* .title p{
+        font-size: 48px;
+        color:white;
+        margin-left: 20px;
+    } */
+    
+    .answer{
+        background-color:#000000;
+    }
+    
+    .wrap{
+        width: 100vw;
+        margin: auto;
+        display:flex;
+    }
+    .imageWrap{
+        padding-left: 500px;
+        margin-bottom: 150px;
+    }
+    
+    .imageWrap img{
+        width: 350px;
+    }
+    .text{
+        font-size: 24px;
+        margin-top: 120px;
+        width: 850px;
+        padding-left: 100px;
+        color: rgb(211, 180, 114);
+        font-family: 'Noto Sans', sans-serif;
+    }
+    .text p {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        margin-bottom: 0;
+    }
+    h3{
+        font-size: 48px;
+        font-family: 'Kaisei Opti', serif;
+        width: 100%;
+        text-align: left;
+    }
+    h2{
+        font-size: 32px;
+        padding-left: 0px;
+    }
+}
