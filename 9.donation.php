@@ -86,7 +86,7 @@ require './parts/connect-db.php';
                              name="name" 
                              style="background: none; border:none; resize: none;"></input>
                         </div>
-                        <!-- onclick="buttonCode()"  -->
+                    
                         <div class="button-wrap-with-icon">
                             <button class="button-wrap-with-icon-botton"  id="submit-button2" data-action="submit" >
                             贊助
